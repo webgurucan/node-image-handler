@@ -1,7 +1,5 @@
 # sharp
 
-<img src="https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/sharp-logo.svg" width="160" height="160" alt="sharp logo" align="right">
-
 The typical use case for this high speed Node.js module
 is to convert large images in common formats to
 smaller, web-friendly JPEG, PNG, WebP, GIF and AVIF images of varying dimensions.
@@ -18,14 +16,6 @@ rotation, extraction, compositing and gamma correction are available.
 
 Most modern macOS, Windows and Linux systems running Node.js >= 12.13.0
 do not require any additional install or runtime dependencies.
-
-## Documentation
-
-Visit [sharp.pixelplumbing.com](https://sharp.pixelplumbing.com/) for complete
-[installation instructions](https://sharp.pixelplumbing.com/install),
-[API documentation](https://sharp.pixelplumbing.com/api-constructor),
-[benchmark tests](https://sharp.pixelplumbing.com/performance) and
-[changelog](https://sharp.pixelplumbing.com/changelog).
 
 ## Examples
 
@@ -93,25 +83,3 @@ readableStream
   .pipe(writableStream);
 ```
 
-## Contributing
-
-A [guide for contributors](https://github.com/lovell/sharp/blob/main/.github/CONTRIBUTING.md)
-covers reporting bugs, requesting features and submitting code changes.
-
-[![Test Coverage](https://coveralls.io/repos/lovell/sharp/badge.svg?branch=main)](https://coveralls.io/r/lovell/sharp?branch=main)
-[![Node-API v5](https://img.shields.io/badge/Node--API-v5-green.svg)](https://nodejs.org/dist/latest/docs/api/n-api.html#n_api_n_api_version_matrix)
-
-## Licensing
-
-Copyright 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Lovell Fuller and contributors.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-[https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
